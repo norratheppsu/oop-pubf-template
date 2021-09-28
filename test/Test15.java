@@ -15,7 +15,7 @@ public class Test15 {
 	Player[] players = new Player[26];
 	for(int i=0; i<26; i++) {
 		String name = ""+((char)(65+i))+"_test";
-		players[i] = new Player((i*i+18)%17,(i*i+5)%13, name);
+		players[i] = new Player((i+5)%17,(i+2)%13, name);
 	}
 
         PUBFGame g = new PUBFGame(f, players);
