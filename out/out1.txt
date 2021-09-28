@@ -1,0 +1,5 @@
+O
+Player name: Oak
+Alive?: true
+Is at (3,3)?: false
+Is at (3,3)?: true
