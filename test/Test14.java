@@ -4,7 +4,7 @@ package src;
  *
  * Test Wanderer
  */
-public class Test19 {
+public class Test14 {
     
     public static void main(String[] args) {
         

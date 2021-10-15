@@ -5,7 +5,7 @@ package src;
  *
  * Test Sniper
  */
-public class Test17 {
+public class Test12 {
     
     public static void main(String[] args) {
         
