@@ -1,24 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package src;
 
 /**
  *
- * test 13
+ * Test StrongWanderer
  */
-public class Test13 {
+public class Test18 {
+    
     public static void main(String[] args) {
-        BattleField f = new BattleField(17,13);
-	Player[] players = new Player[4];
-	players[0] = new Player(0,0,"Aaron");
-	players[1] = new Player(16,10,"Ben");
-	players[2] = new Player(5,7,"Carl");
-	players[3] = new Player(15,10,"Doug");
+        
+        StrongWanderer sw = new StrongWanderer(5, 5, "SWan");
+        Player p = new Player(5,7,"Normal");
+        Warrior w = new Warrior(5,6,"War");
+        Player[] players = {p, sw, w};
+        BattleField f = new BattleField(8,8);
         PUBFGame g = new PUBFGame(f, players);
-	g.play(5);
+        g.phase4PrintBattleField();
+        g.playOneRound();
+        
     }
     
 }
